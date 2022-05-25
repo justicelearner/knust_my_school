@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    font-size: 19px;
+}
+
+#nav-section{
+    height: 60vh;
+    background-image: url(photos/KNUST\ \(1\).jpg);
+    background-color: rgba(0,0,0,0.7);
+    background-size:cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    animation: animation 60s ease-in-out 6s infinite forwards;
+    transition: 5s;
+    margin-bottom: 100px;
+
+}
+
+ @keyframes animation { 
+        0% {
+            background-image: url(photos/KNUST.jpg);
+        }
+
+        25% {
+            background-image:url(photos/part-ust.png);
+        }
+
+        50% {
+            background-image:url(photos/knust-720x405.jpg);
+        }
+    
+        75% {
+            background-image:url(photos/knust-library.jpg);
+        }
+    
+        90% {
+            background-image:url(photos/africa-hall-women-s-hall-6-kumasi-ghana-designed-1964-5-by-architect-knust-john-owusu-addo-miro-marasovic-chief-university-architect-niksa-ciko-architect-in-charge.png);
+        }
+
+        100% {
+            background-image: url(photos/KNUST\ \(1\).jpg);
+        }
+    
+        
+
+    }
+
+    
+
+
+
+#nav-bar {
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    padding: 30px 10px 20px 40px;
+   
+
+    
+}
+
+#nav-bar img {
+    display: block;
+    margin:  0px 5px;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:80%;
+}
+
+#nav-bar ul li {
+    padding: 5px 20px;
+    display: inline-block;
+
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+
+#nav-bar ul li a:hover {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+
+
+#introduction {
+    display: block;
+    color: white;
+    text-align: center;
+    margin:   auto;
+    line-height: 1.6;
+    margin: 90px auto auto auto;
+    
+    
+    
+   
+}
+
+#introduction  h1 {
+    font-size: 27px;
+    display: block;
+    text-transform: capitalize;
+}
+
+
+/* footer*/
+footer {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    
+
+}
+
+footer h2 {
+    display: block;
+    padding: 15px;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+footer p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.fab {
+    color: chocolate;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+}
+
+footer span {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.auther {
+    font-size: 12px;
+    color: limegreen;
+}
+
+/*footer*/
+
+#map-section {
+    display: block;
+    margin: 5px auto;
+    padding: auto 20px;
+    padding-bottom: 50px;
+}
+
+.image {
+    position: relative;
+    width: 85%;
+    height: 80vh;
+    display: block;
+    margin: auto;
+
+}
+
+#contact-section {
+    margin: 20px auto 40px auto;
+    display:block;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.contact-section-content {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: auto 20px auto 20px;
+}
+
+
+.contact {
+    width: 370px;
+    position: relative;
+    display: block;
+    margin-right: 80px;
+       
+}
+
+.description {
+    float: right;
+}
+
+.description p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.description header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact span {
+    position: relative;
+    display: block;
+    margin-bottom: 70px;
+
+}
+
+.symbol {
+    float: left;
+}
+
+.fas {
+    color: rgb(127, 243, 127);
+}
+
+#credentials {
+    width: 600px;
+    height: auto;
+    margin-left: 80px;
+}
+
+#name {
+    width: 600PX;
+    height: 50px;
+    text-align: left;
+    color: white;
+    padding: 10PX;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+}
+
+#email {
+    width: 600px;
+    height: 50px;
+    text-align: left;
+    color: black;
+    padding: 10px ;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+
+
+#subject {
+    width: 600px;
+    height: 50px;
+    text-align: left;
+    color: black;
+    padding: 10px ;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    padding-top: 0px;
+
+}
+
+#message {
+    width: 600PX;
+    height: 150px;
+    text-align: left;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5PX;
+    font-size: 15px;
+    border: 1px solid black;
+    padding-top: 0px;
+    
+}
+
+
+
+
+
+.btn {
+    display: block;
+    margin: 50px 0px;
+    width: 150px;
+    height: 50px;
+    background:green;
+    border: 1px solid lightgreen;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    border-color:green;
+    color: white;
+    background-color: green;
+
+}
+
+ 
+
+
+
+
+

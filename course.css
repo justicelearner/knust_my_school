@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+    font-size: 19px;
+}
+
+#nav-section{
+    height: 60vh;
+    background-image: url(photos/KNUST\ \(1\).jpg);
+    background-color: rgba(0,0,0,0.7);
+    background-size:cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    animation: animation 60s ease-in-out 6s infinite forwards;
+    transition: 5s;
+    margin-bottom: 100px;
+
+}
+
+ @keyframes animation { 
+        0% {
+            background-image: url(photos/KNUST.jpg);
+        }
+
+        25% {
+            background-image:url(photos/part-ust.png);
+        }
+
+        50% {
+            background-image:url(photos/knust-720x405.jpg);
+        }
+    
+        75% {
+            background-image:url(photos/knust-library.jpg);
+        }
+    
+        90% {
+            background-image:url(photos/africa-hall-women-s-hall-6-kumasi-ghana-designed-1964-5-by-architect-knust-john-owusu-addo-miro-marasovic-chief-university-architect-niksa-ciko-architect-in-charge.png);
+        }
+
+        100% {
+            background-image: url(photos/KNUST\ \(1\).jpg);
+        }
+    
+        
+
+    }
+
+    
+
+
+
+#nav-bar {
+    display: flex;
+    top: 0;
+    flex-direction: row;
+    padding: 30px 10px 20px 40px;
+   
+
+    
+}
+
+#nav-bar img {
+    display: block;
+    margin:  0px 5px;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:80%;
+}
+
+#nav-bar ul li {
+    padding: 5px 20px;
+    display: inline-block;
+
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+}
+
+#nav-bar ul li a:hover {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+
+
+#introduction {
+    display: block;
+    color: white;
+    text-align: center;
+    margin:   auto;
+    line-height: 1.6;
+    margin: 90px auto auto auto;
+    
+    
+    
+   
+}
+
+#introduction  h1 {
+    font-size: 27px;
+    display: block;
+    text-transform: capitalize;
+}
+
+
+
+
+
+#line-2 {
+    margin:300px auto 50pxs auto;
+    display: block;
+
+}
+
+#line-2 h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#line-2 p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#line-2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+#line-2-content span {
+    margin: auto 30px;
+    text-align: center;
+    width: 350px;
+    background-color:rgb(253, 235, 212);
+    height: 200PX;
+}
+
+#line-2-content span:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#line-2-content span h3 {
+    padding: 20px;
+    display: block;
+    margin: 5px auto;
+    text-transform: capitalize;
+}
+
+#line-2-content span p {
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#line-4 {
+    margin: 100px auto;
+    text-align: center;
+    display: block;
+}
+
+#line-4 h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#line-4 p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#line-4-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#line-4-content span {
+    margin: auto 15px;
+    text-align: center;
+    width: 280px;
+    background-color:white;
+    height: auto;
+    position: relative;
+    border-radius: 6px;
+   
+    
+}
+
+#line-4-content span img {
+    border-radius: 6px;
+}
+
+#line-4-content span h3 {
+     display: block;
+     margin: 10px auto;
+     text-align: left;
+     text-transform: capitalize;
+     font-size: 18px;
+
+
+}
+
+
+#line-4-content span p {
+    display: block;
+    text-align: left;
+    line-height: 1.4;
+    margin: auto;
+    padding-top: 5px;
+}
+
+
+footer {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    
+
+}
+
+footer h2 {
+    display: block;
+    padding: 15px;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+footer p {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.fab {
+    color: chocolate;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+}
+
+footer span {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.auther {
+    font-size: 12px;
+    color: limegreen;
+}
+
+
+
+/*media section*/
+@media only screen and (max-width:900px) {
+    body {
+        font-family:sans-serif;
+        font-size: 16px;
+    }
+
+    #nav-section{
+        height: auto;
+        background-image: url(photos/KNUST\ \(1\).jpg);
+        background-color: rgba(0,0,0,0.7);
+        background-size:cover;
+        background-position:center;
+        background-blend-mode: multiply;
+        animation: animation 60s ease-in-out 6s infinite forwards;
+        transition: 5s;
+        margin-bottom: 100px;
+        padding-bottom: 25px;
+    }
+
+    #nav-bar img {
+        display: block;
+        margin:  0px 5px;
+    }
+    
+    #nav-bar {
+        display: flex;
+        top: 0;
+        flex-direction: column;
+        padding: 30px 0px 20px 0px;   
+    }
+    
+    #nav-bar ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    }
+  
+    #nav-bar ul li {
+        padding:10px;
+        display: inline-block;
+        border-bottom: 1px solid white;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-bar ul li:last-child {
+        border: none;
+    }
+
+    #nav-bar ul li a {
+        text-decoration: none;
+        color:white;
+        text-transform: capitalize;
+    }
+
+    #nav-bar ul li a:hover {
+        border-bottom: none;
+    }
+
+
+    #introduction {
+        display: block;
+        color: white;
+        text-align: center;
+        margin:   auto;
+        line-height: 1.6;
+        margin: 50px auto auto auto;    
+    }
+
+
+    #introduction  h1 {
+        font-size: 22px;  
+    }
+
+    #line-2-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    #line-2-content span {
+        margin: 15px auto;
+        text-align: center;
+        max-width: 350px;
+        background-color:rgb(253, 235, 212);
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    #line-4-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #line-4-content span {
+        margin: 10px  auto;
+        text-align: center;
+        width: 280px;
+        background-color:white;
+        height: auto;
+        position: relative;
+        border-radius: 6px;
+        margin-bottom: 40px;
+       
+        
+    }
+
+    #line-4-content span h3 {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 18px;
+   
+    }
+
+
+    footer h2 {
+        font-size: 17px;
+    }
+
+
+    footer p {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    
+    .fab {
+        font-size: 18px;
+    }
+
+
+
+    
+
+
+
+}
+
